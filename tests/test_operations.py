@@ -1,3 +1,12 @@
+"""
+Unit and Parameterized Tests for Operations.
+
+This test suite verifies the correctness of the arithmetic operations
+defined in app.operations. It utilizes pytest parameterization to efficiently
+test a wide range of positive, negative, and edge-case inputs, including
+exception handling for division by zero.
+"""
+
 import pytest
 from app.operations import add, subtract, multiply, divide
 

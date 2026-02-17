@@ -1,3 +1,12 @@
+"""
+Calculation and Factory Module.
+
+This module defines the Calculation class, which represents a single mathematical
+operation involving two operands (x and y) and a specific operation function.
+It also includes the CalculationFactory, which implements the Factory design pattern
+to instantiate Calculation objects based on string operation names.
+"""
+
 from typing import Callable
 from app.operations import add, subtract, multiply, divide
 
