@@ -1,7 +1,7 @@
 # Professional Python Calculator CLI
 
-![Build Status](https://github.com/Reyesfrancisp/pro-calculator/actions/workflows/python-app.yml/badge.svg)
 ![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen)
+
 ![Python](https://img.shields.io/badge/python-3.11-blue)
 
 A robust, modular command-line interface (CLI) calculator application built with Python. This project demonstrates professional software engineering practices, including design patterns (Factory, Facade), comprehensive testing (100% coverage), and continuous integration (GitHub Actions).
@@ -107,3 +107,8 @@ Continuous Integration
 This repository uses GitHub Actions to automatically run tests on every push. The build will fail if test coverage drops below 100%.
 
 Workflow config: .github/workflows/python-app.yml
+
+
+Example output:
+
+![Example Output](assets/output_example.png)
