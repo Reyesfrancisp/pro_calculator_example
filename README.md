@@ -34,8 +34,8 @@ pro-calculator/
 
 1. Clone the Repository
 
-git clone [https://github.com/Reyesfrancisp/pro-calculator.git](https://github.com/Reyesfrancisp/pro-calculator.git)
-cd pro-calculator
+git clone [https://github.com/Reyesfrancisp/pro_calculator_example.git](https://github.com/Reyesfrancisp/pro_calculator_example.git)
+cd pro_calculator_example
 
 2. Create a Virtual Environment
 It is recommended to use a virtual environment to manage dependencies.
@@ -111,4 +111,4 @@ Workflow config: .github/workflows/python-app.yml
 
 Example output:
 
-![Example Output](assets/output_example.png)
+![Example Output](assets\output_example.png)
