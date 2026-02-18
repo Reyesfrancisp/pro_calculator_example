@@ -29,7 +29,7 @@ pro-calculator/
 ├── main.py             # CLI Entry point
 ├── requirements.txt    # Project dependencies
 └── README.md           # Documentation
-
+```
 ## Setup Instructions
 
 1. Clone the Repository
