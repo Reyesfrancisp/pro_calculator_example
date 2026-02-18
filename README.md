@@ -32,36 +32,44 @@ pro-calculator/
 ```
 ## Setup Instructions
 
-1. Clone the Repository
+### 1. Clone the Repository
 
-git clone [https://github.com/Reyesfrancisp/pro_calculator_example.git](https://github.com/Reyesfrancisp/pro_calculator_example.git)
+```bash
+git clone https://github.com/Reyesfrancisp/pro_calculator_example.git
 cd pro_calculator_example
+```
 
-2. Create a Virtual Environment
+### 2. Create a Virtual Environment
+
 It is recommended to use a virtual environment to manage dependencies.
 
 Windows:
 
-
+```bash
 python -m venv venv
-source venv/Scripts/activate
-
+venv\Scripts\activate
+```
 
 Mac/Linux:
 
-
+```bash
 python3 -m venv venv
 source venv/bin/activate
+```
 
 3. Install Dependencies
 
+```bash
 pip install -r requirements.txt
+```
+
 Usage
+
 Start the calculator by running the main script:
 
-
+```bash
 python main.py
-
+```
 
 ### Command Reference
 
@@ -76,11 +84,11 @@ python main.py
 | **exit** | `exit` | Exits the application. |
 
 
-Example Session
+## Example Session
 
-The application supports both Fast Mode (one line) and Guided Mode (step-by-step).
+The application supports both **Fast Mode** (one line) and **Guided Mode** (step-by-step).
 
-
+```text
 Calc> add 5 5
   = Result: 10
 
@@ -95,20 +103,24 @@ Calc> history
   -------------------------------------------------------
   1    | add        | 5        | 5        | 10
   2    | divide     | 10       | 0        | Error
+```
 
-
-
-Testing
+## Testing
 This project enforces 100% test coverage. To run the tests and verify coverage locally:
 
-# Run tests with coverage report
+### Run tests with coverage report
+
+```bash
 python -m pytest --cov=app --cov-report=term-missing
-Continuous Integration
+```
+
+### Continuous Integration
+
 This repository uses GitHub Actions to automatically run tests on every push. The build will fail if test coverage drops below 100%.
 
-Workflow config: .github/workflows/python-app.yml
+Workflow config: ```.github/workflows/python-app.yml```
 
 
-Example output:
+## Example output:
 
-![Example Output](assets\output_example.png)
+![Example Output](assets/output_example.png)
